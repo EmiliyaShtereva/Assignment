@@ -3,8 +3,8 @@ function documentManipulation() {
     const allElements = document.body.querySelectorAll('*');
     const body = document.querySelector('body');
     const divs = [];
-    let banner = document.createElement('div');
-    banner.textContent = 'BANNER';
+    let banner = document.createElement('img');
+    banner.src = 'https://www.freeiconspng.com/uploads/red-ribbon-banner-png-12.png';
     banner.style.width = '720px';
     banner.style.height = '90px';
 
