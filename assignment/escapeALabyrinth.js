@@ -5,6 +5,7 @@ function solution(map) {
     const queue = [];
     const visited = Array.from({ length: height }, () => Array(width).fill(false));
 
+    // Check if new location is inside the map
     function isWithinBounds(x, y) {
         return x >= 0 && x < width && y >= 0 && y < height;
     }
